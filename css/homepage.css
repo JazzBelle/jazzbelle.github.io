@@ -1,0 +1,52 @@
+body {
+    color: antiquewhite;
+    font-family: 'Lucida Console';
+}
+
+a {
+	color: lightgrey;
+}
+
+.parallax { 
+    background-image: url("https://i.imgur.com/6uY3LBl.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .center {
+	text-align: center;
+  }
+
+  .centered {
+    margin: 20 auto
+  }
+
+  img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.padout_xsm {
+	margin: .5in;
+  }
+
+  div.padout_sml {
+	margin: 1in;
+  }
+
+  div.padout_med {
+	margin: 2in;
+  }
+
+  div.padout_lrg {
+	margin: 3in;
+  }
+
+  div.padout_xlr {
+	margin: 4in;
+  }
+ 
